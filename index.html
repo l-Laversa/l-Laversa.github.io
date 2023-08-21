@@ -68,6 +68,27 @@ A very short explanation: <a title="Youtube link" target="_blank" class="link-in
 
 <div class="phd"> 
 <b>Abstract</b> <br>
+<strong>Distributed systems</strong> are ubiquitous and their implementation is complex and error-prone. 
+In order to check for errors, they can be modeled as systems of <strong>communicating automata</strong>, 
+where each automaton represents the behavior of an element of the system. Verification 
+problems such as reachability are undecidable in such a model. Indeed, a system of 
+communicating automata is Turing-equivalent. For that, the use of approximations is 
+necessary. <strong>k-synchronizability</strong> is one of these techniques. A system is k-synchronizable if, 
+for all executions, there is an equivalent execution that can be divided into phases 
+containing k messages. These phases are called k-exchanges. In this thesis, we analyse 
+k-synchronizable systems: we show that reachability is decidable and we are interested 
+in the membership problem, that is: given a system, decide whether it is k-synchronizable. 
+We study both the case where k is an input of the problem, and the case where we have to 
+guess a k such that the system is k-synchronizable. We study them according to the <strong>type 
+of communication</strong> of the system. Either the system is in mailbox and so each process 
+has only one buffer to store all received messages, or the system is in peer-to-peer, 
+and each process has a buffer for each sender. Both problems are decidable when the system 
+is communicating in mailbox. When the system is communicating in peer-to-peer, the first one 
+is decidable and the second remains open. Finally, we point out some counter-intuitive cases 
+of k-synchronizable systems that lead us to propose some variations to the definition of 
+k-synchronizability. A comparative study of the state-of-art classes of systems and our new 
+classes concludes our work.
+<!-- 
     Most of the <strong>distributed systems</strong> we use nowadays are based on the
 message-passing paradigm where systems are structured into parties that
 interact only by sending/receiving messages. Message-passing programming is
@@ -90,7 +111,9 @@ name of <strong>synchronizability</strong>. Synchronizability of a distributed s
 property that the observable behaviour of the system is the same whether or not
 the communications are synchronous. The main topic of my PhD is to develop
 methods and tools that help designing safe distributed systems based on the
-notion of synchronizability.</div>
+notion of synchronizability.
+-->
+</div> 
 
 
 <div class="pied-de-page"></div>
