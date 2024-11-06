@@ -57,7 +57,10 @@ body{
     color:  rgb(17,145,92);
     text-decoration: none;
 }
-
+.link-slides{
+    color:   rgb(145,17,70);
+    text-decoration: none;
+}
 img{
     float: left;
     border-radius: 50%;
