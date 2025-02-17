@@ -77,3 +77,8 @@ img{
 li{
     margin: 4px 0;
 }
+
+pre {
+    display: inline;
+    margin: 0;
+}
